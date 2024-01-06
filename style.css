@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Signika+Negative:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Fira Code', monospace;
+}
+
+.border {
+    padding: 20px;
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.little-screen {
+    width: 100%;
+    background-color: burlywood;
+    font-size: 40px;
+    text-align: end;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#zero {
+    width: 108px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+#equal {
+    background-color: rgba(255, 155, 5, 0.99);
+}
+
+#equal:hover {
+    background-color: #f1ba60;
+}
+
+#plus {
+    background-color: rgba(255, 155, 5, 0.99);
+}
+
+#minus {
+    background-color: rgba(255, 155, 5, 0.99);
+}
+
+#multiply {
+    background-color: rgba(255, 155, 5, 0.99);
+}
+
+#div {
+    background-color: rgba(255, 155, 5, 0.99);
+}
+
+#div:focus {
+    background-color: white;
+    color: rgba(255, 155, 5, 0.99);
+}
+
+#plus:focus {
+    background-color: white;
+    color: rgba(255, 155, 5, 0.99);
+}
+
+#multiply:focus {
+    background-color: white;
+    color: rgba(255, 155, 5, 0.99);
+}
+
+#minus:focus {
+    background-color: white;
+    color: rgba(255, 155, 5, 0.99);
+}
+
+.header {
+    color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    color: grey;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #464343;
+    margin: 4px;
+    color: white;
+}
+
+button:hover {
+    background-color: darkgrey;
+}
+
+button:active {
+    background-color: grey;
+}
